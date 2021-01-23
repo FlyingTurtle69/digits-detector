@@ -1,0 +1,39 @@
+body {
+  background: #ffe url(../static/images/fade.png) top center repeat-x;
+  color: maroon;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  width: 19em;
+  padding: 0.6em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 0.5em;
+}
+
+h2 {
+  margin-bottom: 0.3em;
+}
+
+section {
+  margin-top: 1em;
+  border-top: 1px solid #d9bfb7;
+}
+
+a {
+  color: navy;
+  display: block;
+  margin-bottom: 0.2em;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d00;
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Digits Detector",
+  "version": "1.0.0",
+  "description": "Make digits (dubs, trips, etc) stand out on 4chan",
+  "author": "Flying Turtle",
+  "icons": {
+    "128": "images/icon128.png",
+    "48": "images/icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://boards.4chan.org/*", "*://boards.4channel.org/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "*://boards.4chan.org/*", "*://boards.4channel.org/*"]
+}

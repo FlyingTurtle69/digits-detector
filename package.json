@@ -1,0 +1,16 @@
+{
+  "name": "digits-detector",
+  "version": "1.0.0",
+  "description": "Make digits (dubs, trips, etc) stand out on 4chan",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/content.ts src/content.css src/popup.html src/popup.css src/popup.ts",
+    "build": "parcel build src/content.ts src/content.css src/popup.html src/popup.css src/popup.ts"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.128",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "typescript": "^4.1.3"
+  }
+}
